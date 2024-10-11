@@ -1,0 +1,151 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "69e6af1f-890d-4723-a2f3-64e420583481")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 156.21 68.58)
+		(size 27.94 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39954cda-d83d-4611-8e3d-2b7d51a8feaf")
+		(property "Sheetname" "MOSFET"
+			(at 156.21 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet_driver.kicad_sch"
+			(at 156.21 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWML_C" input
+			(at 156.21 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "448b7848-434a-4f39-93fc-cc221a482081")
+		)
+		(pin "PWMH_C" input
+			(at 156.21 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a68dfe28-cbb4-48ef-b01c-0b1db3662348")
+		)
+		(pin "PWMH_A" input
+			(at 156.21 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7734e44e-7420-4143-80f2-b0cb39686300")
+		)
+		(pin "PWML_A" input
+			(at 156.21 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9cc6f6d3-4e49-428d-8586-ed20900a450c")
+		)
+		(pin "PWMH_B" input
+			(at 156.21 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81e93b29-9c68-4e51-9ecf-ca89ef0cb731")
+		)
+		(pin "PWML_B" input
+			(at 156.21 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4b21422-9ab7-48f4-8f3b-c4381374a9e6")
+		)
+		(pin "PHASE_VGND" input
+			(at 156.21 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4cb36a8-c8f0-4cb0-9ac8-1f9acc5fb9af")
+		)
+		(pin "BEMF_B" output
+			(at 156.21 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f7b9d2f-dc6c-41eb-bfef-655dca276e27")
+		)
+		(pin "BEMF_A" output
+			(at 156.21 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98923dd6-3e55-4f09-b379-a9d3df2ae186")
+		)
+		(pin "BEMF_C" output
+			(at 156.21 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82269a80-bea0-4070-91c6-7b03cb19cef0")
+		)
+		(instances
+			(project "bldc-controller-v1"
+				(path "/69e6af1f-890d-4723-a2f3-64e420583481"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
